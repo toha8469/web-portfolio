@@ -1,0 +1,45 @@
+body {
+    margin: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+}
+h2{
+    font-size: 50px;
+}
+
+.name {
+    color: midnightblue;
+}
+
+section{
+    height: 600px;
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    padding: 40px;
+}
+.top {
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    padding: 2%;
+}
+
+div img {
+    width: 100%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, purple, midnightblue);
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: white;
+}
+.second{
+    height: 600px;
+    background-image: url("images/dream-bg.png");
+    background-position: right;
+    background-repeat: no-repeat;
+}
