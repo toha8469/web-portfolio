@@ -5,21 +5,28 @@ body {
 
 h1 {
     font-size: 60px;
+    margin-bottom: 0px;
 }
-h2{
-    font-size: 50px;
+
+h2 {
+    color: darkkhaki;
+}
+
+h3 {
+    color: brown;
 }
 
 .name {
     color: midnightblue;
 }
 
-section{
+.first {
     height: 600px;
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
     padding: 40px;
 }
+
 .top {
     float: left;
     width: 40%;
@@ -30,16 +37,61 @@ section{
 div img {
     width: 100%;
 }
-.link-button{
+
+.link-button {
     text-decoration: none;
     background-image: linear-gradient(45deg, purple, midnightblue);
     padding: 10px 10px;
     border-radius: 5px;
     color: white;
+    margin-top: 20px;
+    width: 30%;
+    text-align: center;
 }
-.second{
+
+.link-button2 {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, purple, midnightblue);
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+    width: 40%;
+    text-align: center;
+}
+
+.link-button-text {
+    text-decoration: none;
+    color: white;
+}
+
+.second {
     height: 600px;
     background-image: url("images/dream-bg.png");
     background-position: right;
     background-repeat: no-repeat;
+}
+
+.exp {
+    margin-top: 100px;
+    align: center;
+    padding: 10px 10px;
+    height: 200px;
+    border-left: 6px solid;
+    box-shadow: 10px 10px 50px gray;
+}
+
+.third {
+    height: 600px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full{
+    border-image: linear-gradient( blue, rgb(61, 1, 61));
+    border-image-slice: 1;
+}
+#learn{
+    border-image: linear-gradient( red, yellow);
+    border-image-slice: 1;
 }
